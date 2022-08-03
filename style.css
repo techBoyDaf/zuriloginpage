@@ -29,7 +29,7 @@ h3 {
 }
 .formcontainer {
   width: 95%;
-  padding: 5px;
+  padding: 1px;
   margin: auto;
 }
 .registerbtn {
@@ -41,5 +41,13 @@ h3 {
 }
 .imagecontainer {
   margin: auto;
-  width: 35%;
+  width: 25%;
+  
+  
+}
+@media (max-width: 500px) {
+  .imagecontainer {
+    width: 45%;
+    border: 2px solid red;
+  }
 }

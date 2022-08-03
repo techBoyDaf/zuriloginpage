@@ -48,6 +48,6 @@ h3 {
 @media (max-width: 500px) {
   .imagecontainer {
     width: 45%;
-    border: 2px solid red;
+    
   }
 }

@@ -14,10 +14,12 @@ nav{
 .logo {
   color:#00B4D8;
   font-size: 25px;
+  font-family: 'Pilcrow Rounded', sans-serif;
 }
 .logo>span{
   color:#1E0B94;
   font-size: 25px;
+  font-family: 'Pilcrow Rounded', sans-serif;
 }
 ul{
   list-style-type: none;
@@ -41,21 +43,14 @@ li:hover{
   cursor: pointer;
   
 }
-nav .get-started{
-  padding: 0.3em 1.5em;
-  color: #FFFFFF;
-  background: #4434A6;
-  border-radius: 12px;
-  font-family: 'Pilcrow Rounded', sans-serif;
-}
+
 .totalcontainer{
   background-image: url(images/backgroundimage.png);    
-    background-size: cover;
-     
+    background-size: cover;     
     background-position: center center;
 }.container {
   margin: auto;
-  margin-top: 10%;
+  margin-top: 5%;
   height: 70%;
   width: 25%;
   
@@ -99,25 +94,6 @@ h3 {
 }
 .imagecontainer {
   margin: auto;
-  width: 20%;
- 
-  
-}
-@media (max-width: 690px) {
-  .imagecontainer {
-    width: 45%;
-    
-  }
-}
-@media (min-width: 700px) {
-  .imagecontainer {
-    width: 28%;
-    
-  }
-}
-@media (min-width: 1200px) {
-  .imagecontainer {
-    width: 23%;
-    
-  }
+  display: flex;
+  justify-content: center;  
 }
